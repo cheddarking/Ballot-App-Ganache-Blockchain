@@ -12,7 +12,7 @@ Follow the simple steps below to test this app.
 
 3. Open the Ganache UI app and start a local blockchain. 
 
-4. Open the truffle folder in your terminal and run `truffle migrate --reset`. This will deploy the Ballot smart contract to the Ganache blockchain.
+4. Open the truffle folder (in your cloned repo) in your terminal and run `truffle migrate --reset`. This will deploy the Ballot smart contract to the Ganache blockchain.
 
 5. Install the [Metamask Wallet extension]( https://metamask.io/download/) to your browser to interact with the blockchain.
 
