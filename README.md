@@ -17,10 +17,10 @@ Follow the simple steps below to test this app.
 5. Install the [Metamask Wallet extension]( https://metamask.io/download/) to your browser to interact with the blockchain.
 
 6. In Metamask, click on "Add a network" and add the local blockchain to your browser with the following details:
-•	Network Name: Ganache 
-•	RPC URL: HTTP://127.0.0.1:7545
-•	Chain ID: 5777
-•	Currency Symbol: ETH
+- Network Name: Ganache 
+- RPC URL: HTTP://127.0.0.1:7545
+- Chain ID: 5777
+- Currency Symbol: ETH
 
 7. Open the root folder in your terminal and run `npm start` to start the dev server. This will launch the app in your browser at the address http://localhost:3000.
 
