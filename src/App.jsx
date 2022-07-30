@@ -273,7 +273,9 @@ function App() {
         )}
         <div className="row">
           <div className="col-xs-12 col-sm-8 col-sm-push-2">
-            <h1 className="text-center">Pick your Fruit</h1>
+            <h1 className="text-center">A Demo Voting App Built on Ethereum</h1>
+            <br />
+            <h2 className="text-center">Pick Your Favorite Fruit</h2>
             <hr/>
             <br/>            
           </div>
