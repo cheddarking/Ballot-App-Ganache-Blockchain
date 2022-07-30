@@ -1,15 +1,29 @@
-# React client
+# Ballot App
 
 This project is bootstraped with [Create React App](https://create-react-app.dev). It is unopinionated with only `web3.js` as an added dependency, so nothing stands in your way.
 
 ## Getting started
 
-Run `npm start` to start the dev server.
+Follow the simple steps below to test this app.
 
-See all [available scripts](https://create-react-app.dev/docs/available-scripts).
+1. To use this app you need to run a local Ethereum blockchain on your machine. For this you can download and install the [Ganache UI app](https://trufflesuite.com/ganache/) to create one 
 
-## Note on `react-scripts` version
+2. Open the Ganache UI app and start a local blockchain. 
 
-The installed version of `react-scripts` is 4.x instead of the latest 5.x, which uses Webpack 5. This is because Webpack 5 no longer auto-polyfills Node.js core modules, which `web3.js` depends on.
+3. Open the truffle folder in your terminal and run `truffle migrate --reset`. This will deploy the Ballot smart contract to the Ganache blockchain.
 
-If you don't want to use `react-scripts` at 4.x, alternative solutions include [`eject`](https://create-react-app.dev/docs/available-scripts/#npm-run-eject) and [`react-app-rewired`](https://github.com/timarney/react-app-rewired) (See [instruction](https://github.com/ChainSafe/web3.js#web3-and-create-react-app)).
+4. Install the [Metamask Wallet extension]( https://metamask.io/download/) to your browser to interact with the blockchain.
+
+5. In Metamask, click on "Add a network" and add the local blockchain to your browser with the following details:
+•	Network Name: Ganache 
+•	RPC URL: HTTP://127.0.0.1:7545
+•	Chain ID: 5777
+•	Currency Symbol: ETH
+
+6. Clone this repository to your local machine using the CLI command "git clone https://github.com/cheddarking/Ballot-App-Ganache-Blockchain.git" or download it from this [link](https://github.com/cheddarking/Ballot-App-Ganache-Blockchain/archive/refs/heads/main.zip)
+
+7. Open the root folder in your terminal and run `npm start` to start the dev server. This will launch the app in your browser at the address http://localhost:3000.
+
+8. In Metamask, select the Ganache network you configured in step 5. Click the “Connect Wallet” button in the web page to connect Metamask to the app. This will launch Metamask. Now click “Select All” in the Metamask wizard to allow the app to connect to all the imported Ganache blockchain accounts.
+
+9. Get voting! :)
