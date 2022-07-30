@@ -6,7 +6,7 @@ This project is bootstraped with [Create React App](https://create-react-app.dev
 
 Follow the simple steps below to test this app.
 
-1.  Clone this repository to your local machine using the CLI command "git clone https://github.com/cheddarking/Ballot-App-Ganache-Blockchain.git" or download it from this [link](https://github.com/cheddarking/Ballot-App-Ganache-Blockchain/archive/refs/heads/main.zip)
+1.  Clone this repository to your local machine using the CLI command `git clone https://github.com/cheddarking/Ballot-App-Ganache-Blockchain.git` or download it from this [link](https://github.com/cheddarking/Ballot-App-Ganache-Blockchain/archive/refs/heads/main.zip)
 
 2. To use this app you need to run a local Ethereum blockchain on your machine. For this you can download and install the [Ganache UI app](https://trufflesuite.com/ganache/) to create one 
 
