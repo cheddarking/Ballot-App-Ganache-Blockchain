@@ -2,6 +2,17 @@
 
 This project is bootstraped with [Create React App](https://create-react-app.dev). It is unopinionated with only `web3.js` as an added dependency, so nothing stands in your way.
 
+## Dependencies to install
+
+1. [Truffle](https://truffleframework.com/) - a JavaScript project build system that simplifies the development of smart contracts.
+
+    `npm install -g truffle`
+
+2. [Web3.js](https://web3js.readthedocs.io/) - a JavaScript library for interacting with Ethereum.
+
+    `npm install -g web3`
+
+
 ## Getting started
 
 Follow the simple steps below to test this app.
